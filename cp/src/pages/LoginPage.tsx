@@ -11,10 +11,15 @@ const LoginPage = () => {
 
 
     const onSubmitHandler = () => {
-        if (!id || !pasword) setError('Invalid Input')
-        setTimeout(() => {
-            setError('')
-        }, 1500)
+        if (!id || !pasword) {
+            setError('Invalid Input')
+            setTimeout(() => {
+                setError('')
+            }, 1500)
+        }else{
+            
+        }
+        
     }
 
 
